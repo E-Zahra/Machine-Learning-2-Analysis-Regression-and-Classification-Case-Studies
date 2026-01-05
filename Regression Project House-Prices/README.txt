@@ -41,7 +41,7 @@ Notebooks (and their PDF versions):
   Purpose: modeling stage. Includes feature selection using LASSO and training/evaluating models (and creating predictions).
 - Trains and evaluates multiple regression models  
 - Uses LASSO (and related linear models) for feature selection / shrinkage  
-- Trains stronger non-linear models (e.g., XGBoost, LightGBM, CatBoost) and compares performance  
+- Trains stronger non-linear models ( XGBoost, LightGBM, CatBoost, RandomForest, EnsembleModel) and compares performance  
 - Produces the final submission file submission_xgboost.csv
 
 Data / saved artifacts:
