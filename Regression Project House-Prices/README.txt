@@ -11,7 +11,7 @@ The goal is to predict house sale prices (SalePrice) using the Ames Housing data
 I focus on:
 - data cleaning and preprocessing
 - feature engineering and correlation checks
-- feature selection (LASSO) and model training (tree-based models, XGBM,CatBoost,LightGBM)
+- feature selection (LASSO) and model training (five Tree base models, XGBM,CatBoost,LightGBM,RandomForest,EnsembleModel)
 - producing a final Kaggle-style submission file
 
 ────────────────────────────────────────────────────────────────────────────
