@@ -1,7 +1,7 @@
 House Prices Regression Project (Ames Housing Dataset) – README
 
 Hello Professor,
-This folder contains my full project for the Kaggle competition “House Prices: Advanced Regression Techniques”.
+This folder contains my full project for “House Prices: Advanced Regression ML Techniques”.
 I tried to keep the work clean and modular, so each notebook has a clear role, and I also exported each notebook to PDF for easier reviewing.
 
 ────────────────────────────────────────────────────────────────────────────
