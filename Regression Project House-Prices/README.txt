@@ -18,7 +18,7 @@ I focus on:
 2) Files Included
 ────────────────────────────────────────────────────────────────────────────
 Notebooks (and their PDF versions):
-- 1- regression.ipynb  +  1- regression.pdf
+- 1- PreproccesingRegression.ipynb  +  1- PreproccesingRegression.pdf
   Purpose: initial data loading, missing-value handling, skewness handling, and building a preprocessing pipeline.
   Output: a prepared dataset saved for reuse.
 - Loads train.csv / test.csv (Kaggle data)  
@@ -27,7 +27,7 @@ Notebooks (and their PDF versions):
 - Applies log transform for the target / skewed numeric features (where appropriate)  
 - Saves the processed splits and metadata as prepared_data.pkl for reuse
 
-- 2- regression.ipynb  +  2- regression.pdf
+- 2- FeatureEngRegression.ipynb  +  2- FeatureEngRegression.pdf
   Purpose: feature engineering and feature quality checks (especially correlation analysis and multicollinearity checks).
   Output: an updated prepared dataset saved for modeling.
 - Loads prepared_data.pkl  
@@ -37,7 +37,7 @@ Notebooks (and their PDF versions):
 - Performs sanity checks on encodings (e.g., verifying binary features match their meaning)  
 - Saves an updated prepared dataset for modeling (depending on your notebook settings, it may overwrite or create a new pickle)
 
-- 3-regressionC.ipynb  +  3-regressionC.pdf
+- 3-ModelingRegression.ipynb  +  3-ModelingRegression.pdf
   Purpose: modeling stage. Includes feature selection using LASSO and training/evaluating models (and creating predictions).
 - Trains and evaluates multiple regression models  
 - Uses LASSO (and related linear models) for feature selection / shrinkage  
