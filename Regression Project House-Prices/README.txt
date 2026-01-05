@@ -57,23 +57,23 @@ Data / saved artifacts:
 ────────────────────────────────────────────────────────────────────────────
 Please run the notebooks in this order:
 
-1) 1- regression.ipynb
-2) 2- regression.ipynb
-3) 3-regressionC.ipynb
+1) 1- PreproccesingRegression.ipynb
+2) 2- FeatureEngRegression.ipynb
+3) 3-ModelingRegression.ipynb
 
 Each notebook saves outputs that the next notebook loads, so the order matters.
 
 If you want you can use the PDF files from the notebooks:
-1- regression.pdf
-2- regression.pdf
-3-regressionC.pdf
+1- PreproccesingRegression.pdf
+2- FeatureEngRegression..pdf
+3-ModelingRegression.pdf
 
 ────────────────────────────────────────────────────────────────────────────
 4) Notes About Evaluation and Reproducibility
 ────────────────────────────────────────────────────────────────────────────
 - I tried to avoid data leakage as much as possible. For example, whenever I needed to learn something from the data (imputation values, scaling parameters, encoding, etc.), I fit those steps on the training data and then applied the same fitted transformations to validation and test.
 
-- I used structured preprocessing (pipelines / transformers) so the exact same steps are applied consistently. This helps keep the workflow reproducible and reduces the chance of “accidental” differences between train/val/test processing.
+- I used structured preprocessing pipelines so the exact same steps are applied consistently. This helps keep the workflow reproducible and reduces the chance of “accidental” differences between train/val/test processing.
 
 - In notebook 2, I do feature engineering based on correlation checks and sanity checks (for example I verified suspicious correlations such as CentralAir and fixed the encoding when needed). I also check for highly correlated features (multicollinearity) to reduce redundancy before modeling.
 
